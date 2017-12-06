@@ -18,7 +18,7 @@ var gcd=function(a,b){
 
 
 var randomStudent=function(){
-    var l=["A", "B", "C", "D", "E", "F", "G"];
+    var l=["Anna", "Bob", "Carl", "Dennis", "Edward", "Fred", "George"];
     var ind=Math.floor(Math.random()*l.length);
     return l[ind];
 }
